@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+	RewriteRule ^IsMsG(.+) img.php?src=$1 [L,QSA]
+</IfModule>
